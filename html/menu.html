@@ -12,59 +12,322 @@
     <link rel="icon" href="./images/mjc.png" type="image/png">
     <link rel="stylesheet" href="../css/reset.min.css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   </head>
+ 
   <body>
-    <div class="menu-container">
+    <div class="container">
       <div class="center-title">
-        <h2 class="text-white">Private Event Menus</h2>
-        <p class="text-white-gray">Chef's Menus</p>
-    </div>
-    <div class="food-menu-card">
-        <div>
+        <h2 class="text-gray">Private Event Menus</h2>
+        <p class="text-gray">Prices start at $100 per person for a 3 course meal. Typically includes an appetizer, an entree, and a dessert. Courses may be chosen from any of the
+          menus. Any change to number of courses will affect per person price. It is customary to choose 1 dish per course for the whole group to eat. If there are allergy, dietary, or other
+          restrictions, accommodations can be made.
+        <p class="text-white-gray">Chef's Menus</p>    
+      <div class="food-menu-card">
+      <div id="myTab">
+            
+
           <!--Nav Tabs-->
-          <ul class="nav tabs-menu-nav justify-content-center mb30" role="tablist">
-            <li class="nav-item" role="presentation"><a class="nav-link active show" href="#french" aria-controls="french" role="tab" data-toggle="tab" aria-selected="true">FRENCH</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#italian" aria-controls="italian" role="tab" data-toggle="tab" aria-selected="false">ITALIAN</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#mediterranean" aria-controls="mediterranean" role="tab" aria-selected="falsae">MEDITERRANEAN</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#japanese" aria-controls="japanese" role="tab" aria-selected="falsae">JAPANESE</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#latin-america" aria-controls="latin-america" role="tab" aria-selected="false">LATIN AMERICA</a></li>
-            <li class="nav-item" role="presentattion"><a class="nav-link" href="#other" aria-controls="other" role="tab" aria-selected="false">OTHER</a></li>
+        <div class="row">        
+          <ul class="nav nav-tabs justify-content-center mb30" id="nav-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active show" href="#french" data-bs-toggle="tab" aria-controls="french" role="tab" data-toggle="tab" aria-selected="true">FRENCH</a>
+              </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#italian" data-bs-toggle="tab" aria-controls="italian" role="tab" data-toggle="tab" aria-selected="false">ITALIAN</a>
+              </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#mediterranean" data-bs-toggle="tab" aria-controls="mediterranean" role="tab" data-toggle="tab" aria-selected="false">MEDITERRANEAN</a>
+              </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#japanese" data-bs-toggle="tab" aria-controls="japanese" role="tab" data-toggle="tab" aria-selected="false">JAPANESE</a>
+                </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#latin-america" data-bs-toggle="tab" aria-controls="latin-america" role="tab" data-toggle="tab" aria-selected="false">LATIN AMERICA</a>
+              </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#other" data-bs-toggle="tab" aria-controls="other" role="tab" data-toggle="tab" aria-selected="false">OTHER</a>
+              </li>
           </ul>
-
-          <!--Tab Panes-->
-          <div class="tab-content">
-            <div role="tabpanel" class="tab-pane fade active show" id="french">
-              <div class="row">
-                <div class="col-md-6 mb20">
-                  <div class="d-flex justify-content-between mb10">
-                    <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">FRENCH MENU ITEM NAME</h3>
-                    <div class="align-self-center">
-                      <strong class="text-white font700">$0.00</strong>
-                    </div>
-                  </div>
-                  <p class="mb-0">Menu description text goes here. 
-                    </br>Two lines should be sufficient</p>
-                </div>
-
-            <div role="tabpanel" class="tab-pane fade" id="italian">
-              <div class="row">
-                <div class="col-md-6 mb20">
-                  <div class="d-flex justify-content-between mb10">
-                    <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">ITALIAN MENU ITEM NAME</h3>
-                    <div class="align-self-center">
-                      <strong class="text-white font700">$0.00</strong>
-                    </div>
-                  </div>
-                  <p class="mb-0">Menu description text goes here.
-                    </br>Two lines should be sufficient</p>
-
         </div>
-    </div>
-  </body>
-    
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        </br>
 
-</body>
+      <!-- Nav Tab Content -->
+      <div class="row">
+        <div class="tab-content col-xl-12 text-white" id="myTab">
+
+          <!-- START French Menu Content -->
+              <div role="tabpanel" class="tab-pane fade active show" id="french">
+                <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">COGNAC SHRIMP CREPES--BUERRE BLANC--"FINES HERBES"</h3>                   
+                    </div>
+                      <p class="mb-0">THREE LARGE SAUTEED SHRIMP COOKED WITH COGNAC BUERRE BLANC (COGNAC, BUTTER, SHALLOT, LEMON) OVER CREPES WITH "FINES HERBES"
+                        (TARRAGON, CHERVIL, PARSLEY, CHIVES)</p>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">SMOKED SALMON--CORN FRITTER--CREME FRAICHE</h3>                   
+                    </div>
+                      <p class="mb-0">ST. JAMES SCOTTISH SMOKED SALMON, THE BEST IN THE WORLD, SERVED WITH AN OHIO CORN FRITTER (CORN, BEER, FLOUR, EGG), HOMEMADE CREME FRAICHE 
+                      (HEAVY CREAM & BUTTERMILK)</p>
+                  </div>
+                </div>              
+                  </br>
+               <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">DUCK CONFIT--FRENCH TOAST--BACON JAM</h3>                   
+                    </div>
+                      <p class="mb-0">SHREDDED DUCK LEG CONFIT SERVED WARM WITH GRAND MARNIER FRENCH TOAST, AND ANISE FLAVORED BACON JAM (BACON, BROWN SUGAR, APPLE CIDER
+                      VINEGAR, STAR ANISE, CINNAMON)</p></br>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">FRESH GREENS SALAD</h3>                   
+                    </div>
+                      <p class="mb-0">MIXED ORGANIC GREENS, SEASONAL VEGETABLES, LEMON-PARSLEY VINAIGRETTE (LEMON, PARSLEY, GARLIC, EVOO, WHITE WINE VINEGAR, WHITE PEPPER)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">BRAISED BEEF SHORT RIBS--ASPARAGUS--ROASTED GARLIC & CHIVE WHIPPED POTATO</h3>                   
+                    </div>
+                      <p class="mb-0">SLOW BRAISED SHORT RIBS, STEAMED ASPARAGUS, RED WINE PAN SAUCE (BEAUJOLAIS, SHALLOT, GARLIC, BUTTER), AND ROASTED GARLIC & CHIVE WHIPPED POTATOES</p></br></br>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">PAN ROASTED AIRLINE CHICKEN BREAST--GOAT CHEESE--SPRING VEGETABLES--FARRO--SMOKEY TOMATO SAUCE</h3>                   
+                    </div>
+                      <p class="mb-0">CRISPY AIRLINE CHICKEN WITH MELTED GOAT CHEESE, SEASONAL VEGETABLES, STEAMED FARRO (AN ANCIENT GRAIN), AND A SMOKEY TOMATO SAUCE (TOMATOES, ONION, EVOO, SMOKED SEA SALT)</p>
+                  </div>
+                </div>
+                </br></br>
+                <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">DARK CHOCOLATE MOUSSE--RASPEBERRY COULIS--FRESH WHIPPED CREAM</h3>                   
+                    </div>
+                      <p class="mb-0">AN AIRY DESSERT MADE WITH CHOCOLATE, SUGAR, EGG WHITES, AND BUTTER. SERVED WITH RASPBERRY COULIS (RASPBERRIES, SUGAR) AND FRESH
+                      WHIPPED CREAM (HEAVY CREAM, CREAM OF TARTAR)</p></br>
+                  </div>
+                
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">DARK CHERRY CLAFOUTIS--FRESH WHIPPED CREAM</h3>                   
+                    </div>
+                      <p class="mb-0">BLACK CHERRIES BAKED IN A FLAN-LIKE BATTER (FLOUR, EGGS, SUGAR, CREAM)</p></br>
+                  </div>
+                  <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CLASSIC CREME BRULEE--FRESH BERRIES</h3>                   
+                    </div>
+                      <p class="mb-0">CUSTARD MADE WITH CREAM, EGG YOLKS, SUGAR, AND VANILLA BEAN</p></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </br>   
+          <!-- END French Menu Content -->
+
+          <!-- START Italian Menu Content -->
+              <div role="tabpanel" class="tab-pane fade" id="italian">
+                <div class="row">
+                  <div class="col-md-6 mb20">                 
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">ARANCINI--ROASTED GARLIC TOMATO SAUCE--PECORINO CHEESE</h3>                                
+                    </div>
+                      <p class="mb-0">PAN FRIED RISOTTO BALLS, ROASTED GARLIC TOMATO SAUCE (GARLIC, ORGANIC MIUR GLEN TOMATOES, 
+                      ONION, EVOO), AND SHREDDED PECORNIO</p>
+                  </div>
+                   <div class="col-md-6 mb20">                 
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">BURRATA--MIXED GREENS--PROSCUITTO--SPICED PINE NUTS--FIG//TRUFFLE HONEY</h3>                                
+                    </div>
+                      <p class="mb-0">BURRATA (COW'S MILK CHEESE MADE FROM MOZZARELLA AND CREAM), FRESH ORGANIC LOCAL GREENS, SPICED & TOASTED PINE NUTS, FIGS, AND OHIO TRUFFLE HONEY</p></br>
+                  </div>
+                <div class="row">
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">ITALIAN CHOPPED SALAD</h3>                                
+                    </div>
+                      <p class="mb-0">CHOPPED BUTTER LETTUCE, RED ROMAINE, RED OAK, AND FRISEE TOSSED WITH CHOPPED TOMATOES, FETA, SHAVED FENNEL, RED ONIONS, OLIVES, AND LEMON
+                      VINAIGRETTE</p></br>
+                  </div>
+                <div class="row">
+                  <div class="col-md-6 mb20">                 
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CACIO E PEPE GNOCCHI--LOCAL ASPARAGUS--ENGLISH PEAS--MINT</h3>                                
+                    </div>
+                      <p class="mb-0">CACIO E PEPE GNOCCHI (POTATO, GRANA PADANO & PECORINO CHEESES, EGG, FLOUR), STEAMED ASPARAGUS, POACHED PEAS AND CHIFFONADE MINT</p>
+                  </div>
+                   <div class="col-md-6 mb20">                 
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">TENDERLOIN OF BEEF--STEAMED ASPARAGUS--PORCINI AND WHITE TRUFFLE RISOTTO</h3>                                
+                    </div>
+                      <p class="mb-0">CENTER CUT FILET MIGNON, LOCAL ASPARAGUS, AND PORCINI & WHITE TRUFFLE RISOTTO (CHICKEN STOCK, ARBORIO RICE, PECORINO CHEESE, BUTTER, ONION, 
+                      PORCNINI MUSHROOMS AND WHITE TRUFFLE OIL)</p></br>
+                    </div>
+                  </div>
+                </br></br>
+               <div class="row">
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">SEADAS--CANDIED CITRUS--OHIO ORANGE BLOSSOM HONEY</h3>                   
+                    </div>
+                      <p class="mb-0">SARDINIAN CHEESE DUMPLING (YOUNG PECORINO CHEESE, BUTTER, FLOUR, EGG), CANDIED ORANGE AND LEMON PEEL (VINEGAR, SUGAR, ORANGE PEEL, LEMON PEEL),
+                      OHIO ORANGE BLOSSOM HONEY</p></br>
+                  </div>                               
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">PEACHES AND CREAM</h3>                   
+                    </div>
+                      <p class="mb-0">ZABAGLIONE (A CUSTARD MADE WITH EGG YOLKS, SUGAR, AND MARSALA WINE) AND SERVED WITH SLICED PEACHES AND FRESH WHIPPED CREAM</p></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- END Italian Menu Content -->
+
+          <!-- START Mediterranean Menu Content -->
+              <div role="tabpanel" class="tab-pane fade" id="mediterranean">       
+                <div class="row">       
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">SPICED GROUND LAMB--WARM HUMMUS--FRESH WARM PITA</h3>
+                    </div>
+                      <p class="mb-0">MOROCCAN (SMOKED PAPRIKA, CORIANDER, AND CUMIN) SPICED GROUND LAMB OVER TOP WARMED HUMMUS 
+                      (CHICKPEAS, GARLIC, EVOO, SMOKED PAPRIKA, LEMON), GARNISHED WITH CILANTRO & MINT, AND SERVED WITH WARMED PITA</p></br>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">ARUGULA, SPINACH, AND FRESH ARTICHOKE SALAD--ROASTED GARLIC VINAIGRETTE</h3>
+                    </div>
+                      <p class="mb-0">FRESH ORGANIC ARUGULA AND SPINACH WITH FRESH ARTICHOKE HEARTS, TOASTED WALNUTS, CRISPY SHALLOTS (SHALLOTS, BUTTER), ROASTED RED PEPPERS AND 
+                      ROASTED GARLIC VINAIGRETTE (EVOO, ROASTED GARLIC, LEMON, PARSLEY, WHITE WINE VINEGAR)</p></br>
+                  </div>              
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">ROAST BEEF CARPACCIO--BLACK TRUFFLE--HOMEMADE CREME FRAICHE</h3>
+                    </div>
+                      <p class="mb-0">LIGHTLY COOKED RIBEYE ROAST, THINLY SLICED WITH SHAVED BLACK TRUFFLE, SLICED BEETROOT, AND CREME FRAICHE (HEAVY CREAM, BUTTERMILK)</p></br>
+                  </div>
+                    <div class="row">
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">╧ STUFFED PEPPERS--CABBAGE--APPLES ╧</h3>
+                    </div>
+                      <p class="mb-0">RED BELL PEPPER STUFFED WITH CUMIN AND CORIANDER SCENTED QUINOA (AN ANCIENT GRAIN), CARMELIZED EGGPLANT, AND ROASTED TOMATOES (TOMATOES, EVOO) SERVED WITH SAVOY CABBAGE SLAW 
+                      (SAVOY, HONEY CRISP APPLES, GOLD RAISINS, LEMON JUICE, FENNEL)</p></br>
+                  </div>                  
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">AVGOLEMONO SHRIMP--CITRUS SPIKED COUS COUS--FENNEL GREMOLATA</h3>
+                    </div>
+                      <p class="mb-0">AVOGLEMONO SHRIMP (SHRIMP POACHED IN LEMON, EGG YOLKS, CHICKEN STOCK, BAY LEAF), CITRUS COUS COUS (ORANGE AND LEMON, AND FENNEL GREMOLATA (FENNEL,
+                      GARLIC, PARSLEY, LEMON ZEST))</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </br>
+          <!-- END Mediterranean Menu Content -->
+
+          <!-- START Japanese Menu Content -->
+              <div role="tabpanel" class="tab-pane fade" id="japanese">       
+                <div class="row">       
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">MAGURO POKE--SUSHI RICE--CUCUMBER--SESAME--MANGO or PINEAPPLE</h3>
+                    </div>
+                      <p class="mb-0">BLUEFIN TUNA CUT INTO CUBES SERVED WITH STICKY SUSHI RICE, CUCUMBER SPIRALS, SLICED MANGO OR PINEAPPLE, AND SESAME SEEDS</p></br>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CHICKEN YAKITORI SKEWERS--PICKLED SHIITAKE MUSHROOMS</h3>
+                    </div>
+                      <p class="mb-0">MARINATED CHICKEN TENDERLOIN (SOY, SESAME, SCALLION, GINGER, RICE WINE VINEGAR) GRILLED AND SERVED WITH PICKLED SHIITAKE MUSHROOMS (SHIITAKES, SOY SAUCE, 
+                      LIMES)</p></br>
+                  </div>
+                    <div class="row">              
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">KUROBUTA BONE-IN PORK CHOP--CHILLED SOBA NOODLE SALAD--MISO SAUCE</h3>
+                    </div>
+                      <p class="mb-0">CENTER CUT KUROBUTA PORK CHOP, CHILLED UDON NOODLE SALAD (SESAME SEEDS, SOY SAUCE, BROWN SUGAR, RED BELL PEPPERS, SCALLIONS, GINGER, RICE WINE VINEGAR,
+                      SOBA (BUCKWHEAT) NOODLES), MISO SAUCE (MISO PASTE, LIME, GINGER, SOY SAUCE, GARLIC)</p></br>
+                  </div>                  
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">BAKKAFROST FAROE ISLAND SALMON--CARMELIZED EGGPLANT--STICKY RICE--SOY GLAZE</h3>
+                    </div>
+                      <p class="mb-0">THE BEST SALMON IN THE WORLD PAN ROASTED WITH CARMELIZED EGGPLANT, STICKY SUSHI RICE, AND A SOY-HONEY-GINGER GLAZE</p></br>
+                  </div>                  
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CHICKEN CURRY--NAPA CABBAGE--FUKUJINZUKE</h3>
+                    </div>
+                      <p class="mb-0">MILD CHICKEN CURRY (MUSTARD SEEDS, CINNAMON, BAY LEAF, CORIANDER, FENNEL, CUMIN, FENUGREEK, CLOVES, BLACK PEPPERCORNS, PAPRIKA, GINGER, TURMERIC,
+                      SALT, AND CARDAMOM), QUICK SAUTEED NAPA CABBAGE, FUKUJINZUKE (RELISH OF THE SEVEN GODS (CRUNCHY PICKLES (DAIKON, SHIITAKE, EGGPLANT, GINGER, CUCUMBER, CARROT, LOTUS ROOT),
+                      SOY SAUCE, MIRIN, SUGAR, SAKE))
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </br>
+          <!-- END Japanese Menu Content -->
+
+          <!-- START Latin American Menu Content -->
+              <div role="tabpanel" class="tab-pane fade" id="latin-america">       
+                <div class="row">       
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CONCH CHOWDER--SAFFRON--COCONUT--ORANGES</h3>
+                    </div>
+                      <p class="mb-0">SHELLFISH BROTH (EVOO, CHILIES, SHALLOTS, GARLIC, CLAMS, MUSSELS, STAR ANISE, ORANGE JUICE, SAFFRON, CREAM, COCONUT MILK), COOKED WITH NEW POTATOES, BACON
+                      GARLIC, POBLANO CHILE, CORN, RED ONION, CARROT, FENNEL, CELERY, RED BELL PEPPER, CILANTRO, BAY LEAVES, AND CONCH MEAT.</p></br>
+                  </div>
+                  <div class="col-md-6 mb20">           
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">CUBAN PORK ASADO--SOUR ORANGE MOJO--BLACK BEANS AND RICE</h3>
+                    </div>
+                      <p class="mb-0">3 DAY MARINATED PORK SHOULDER (GARLIC, BEAY LEAVES, CUMIN, BLACK PEPPERCORNS, SEVILLE ORANGE JUICE, LIME JUICE, EVOO) SERVED WITH SAFFRON RICE AND
+                      SHERRIED BLACK BEANS</p></br>
+                  </div>
+                    <div class="row">              
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">FETTUCINE--SPICY TOMATO SALSA--CRISPY CALAMARI--ROASTED GARLI AIOLI</h3>
+                    </div>
+                      <p class="mb-0">SPICY TOMATO SALSA & CRISPY CALAMARI (TOMATO, BALSAMIC, EGGS, MILK, FLOUR, CALAMARI, MANCHEGO CHEESE) OVER FETTUCINE WITH ROASTED GARLIC AIOLI (ROASTED GARLIC,
+                      EGG YOLK, EVOO, LEMON JUICE) </p></br>
+                  </div>                  
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">SAUTEED MUSSELS--CHORIZO--LIME--SWISS CHARD--</h3>
+                    </div>
+                      <p class="mb-0">PRINCE EDWARD ISLAND MUSSELS SAUTEED WITH SHALLOTS, GARLIC, CHORIZO SAUSAGE, LIME JUICE, AND RAINBOW SWISS CHARD. SERVED WITH ROASTED GARLIC BREAD.  </p></br>
+                  </div>                  
+                  <div class="col-md-6 mb20">
+                    <div class="d-flex justify-content-between mb10">
+                      <h3 class="align-self-center text-capitalize mb0 h6 text-white font400">KEY LIME CHEESECAKE</h3>
+                    </div>
+                      <p class="mb-0">FRESH KEY LIME JUICE, GRAHAM CRACKER CRUMBS, AND TOASTED ALMONDS SERVED WITH A FRESH CUP OF ESPRESSO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </br>
+          <!-- END Latin American Menu Content -->
+          </div>
+        <div>
+      </div>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  
+  </body>
