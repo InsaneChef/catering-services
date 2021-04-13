@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/chefbrandon/public_html/
+    - /bin/cp -R /home/chefbrandon/repositories/bsquared $DEPLOYPATH
+
