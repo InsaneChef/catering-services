@@ -13,10 +13,10 @@
       navbarStyle.backgroundColor = 'transparent';
       navbarStyle.backgroundImage = 'none';
     } else if ((window.pageYOffset > 0 || toggle.checked) && atMiddle) {
-      navbarStyle.backgroundColor = 'rgb(212, 38, 37)';
+      navbarStyle.backgroundColor = 'rgb(125, 200, 125)';
       navbarStyle.backgroundImage = 'url(./images/edge-skew.png)';
     } else if (!atMiddle) {
-      navbarStyle.backgroundColor = 'rgb(190, 31, 36)';
+      navbarStyle.backgroundColor = 'rgb(125, 200, 125)';
       navbarStyle.backgroundImage = 'url(./images/background-repeat.png)';
     }
   };

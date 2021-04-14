@@ -11,20 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clintonpi/catering-services.git"
+    "url": "git+https://github.com/insanechef/bsquared.git"
   },
   "keywords": [
-    "madam",
-    "joy's",
-    "joy",
+    "chef",
     "catering"
   ],
-  "author": "Clinton Nkwocha",
+  "author": "Brandon Burger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/clintonpi/catering-services/issues"
+    "url": "https://github.com/insanechef/bsquared/issues"
   },
-  "homepage": "https://github.com/clintonpi/catering-services#readme",
+  "homepage": "https://github.com/insanechef/bsquared#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",

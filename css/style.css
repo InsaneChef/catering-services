@@ -670,7 +670,7 @@ Media queries
 
 .food-menu-card {
   padding: 30px 20px;
-  background-color: black;
+  background-color: rgb(13, 11, 20);
   border-radius: 8px;
 }
 
@@ -732,5 +732,5 @@ Media queries
 }
 
 p {
-color:rgb(46, 42, 42)
+color:rgb(200, 200, 42)
 }
